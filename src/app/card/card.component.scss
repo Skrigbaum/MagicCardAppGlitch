@@ -1,0 +1,25 @@
+.Header {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+.CardType {
+    align-self: center;
+    color: white;
+}
+
+.ParentContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+mat-raised-button {
+    color: primary;
+    width: 50%;
+}

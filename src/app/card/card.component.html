@@ -1,0 +1,25 @@
+<div [className]="'top-level'">
+    <h1 [className]="'Header'">Random Magic Card Inspiration</h1>
+    <div [className]="'ParentContainer'">
+        <div [className]="'Container'">
+            <h1 [className]="'CardType'">Problem</h1>
+            <img (click)="getCards('problem')" [className]="'Card'" src="{{cards.problem}}" />
+        </div>
+        <div [className]="'Container'">
+            <h1 [className]="'CardType'">Setting</h1>
+            <img (click)="getCards('setting')" [className]="'Card'" src="{{cards.setting}}" />
+        </div>
+        <div [className]="'Container'">
+            <h1 [className]="'CardType'">Possible Solution</h1>
+            <img (click)="getCards('solution')" [className]="'Card'" src="{{cards.solution}}" />
+        </div>
+        <div [className]="'Container'">
+            <h1 [className]="'CardType'">Antagonist</h1>
+            <img (click)="getCards('antagonist')" [className]="'Card'" src="{{cards.antagonist}}" />
+        </div>
+        <div [className]="'Container'">
+            <h1 [className]="'CardType'">Helper</h1>
+            <img  (click)="getCards('helper')" [className]="'Card'" src="{{cards.helper}}" />
+        </div>
+    </div>
+</div>
